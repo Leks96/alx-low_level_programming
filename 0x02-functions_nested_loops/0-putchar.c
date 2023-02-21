@@ -1,9 +1,9 @@
-/**
-* main - prints _putchar
-*
-*return: always - 0
-*/
 #include "main.h"
+/**
+* Main - Entry point
+*
+* Return: Always - 0 (Success)
+*/
 int main(void)
 {
 	char *sh = "_putchar";
