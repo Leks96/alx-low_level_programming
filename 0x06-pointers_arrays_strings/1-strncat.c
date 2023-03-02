@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 /**
 * _strncat - concatnate two strings.
 * @dest: destination.
@@ -9,17 +9,18 @@
 */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j = 0, const = 0;
-	char *ptr = dest;
+	int i, co;
 
 	for (i = 0; dest[i] != '\0'; i++)
 	{
 	}
-	for (; ((const < n) && (src[j] != '\0')); i++, j++)
+
+	for (co = 0; co < n; co++)
 	{
-		dest[i] = src[i];
-		const++;
+		dest[i + co] = src[co];
+		if (src[co] == '\0')
+			co = n;
 	}
-	dest[i + 1] = src[j + 1];
-	return (ptr);
+
+	return (dest);
 }
