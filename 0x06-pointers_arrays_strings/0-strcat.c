@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
 * _strcat - This function appends the src string to the dest
 * string, overwriting the terminating null byte (\0) at the
