@@ -1,4 +1,6 @@
 #include "main.h"
+int check_prime(int n, int i);
+
 /**
 * is_prime_number - check if it is a prime number
 *
@@ -17,14 +19,13 @@ int is_prime_number(int n)
 }
 
 /**
-* check_number - checks for prime number.
+* check_prime - checks for prime number.
 *
 * @n: input
 * @i: input
 *
 * Return: prime number
 */
-int check_prime(int n, int i);
 
 int check_prime(int n, int i)
 {
