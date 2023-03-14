@@ -16,11 +16,11 @@ char *str_concat(char *s1, char *s2)
 	if (s1 == NULL || s2 == NULL)
 		s1 = s2 = "";
 
-	for (count1 = 0; count1 <= *s1; count1++)
+	for (count1 = 0; count1 < *s1; count1++)
 	{
 	}
 
-	for (count2 = 0; count2 <= *s2; count2++)
+	for (count2 = 0; count2 < *s2; count2++)
 	{
 	}
 
