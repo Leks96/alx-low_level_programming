@@ -1,12 +1,14 @@
 __C - More malloc, free__
 
 __0. Trust no one__
+
  a function that allocates memory using malloc.
  *Prototype: void *malloc_checked(unsigned int b);
  *Returns a pointer to the allocated memory
  *if malloc fails, the malloc_checked function should cause normal process termination with a status value of 98
 
 __1. string_nconcat__
+
  a function that concatenates two strings.
  *Prototype: char *string_nconcat(char *s1, char *s2, unsigned int n);
  *The returned pointer shall point to a newly allocated space in memory, which contains s1,
@@ -16,6 +18,7 @@ __1. string_nconcat__
  *if NULL is passed, treat it as an empty string.
 
 __2. _calloc__
+
  a function that allocates memory for an array, using malloc.
  *Prototype: void *_calloc(unsigned int nmemb, unsigned int size);
  *The _calloc function allocates memory for an array of nmemb elements
@@ -25,6 +28,7 @@ __2. _calloc__
  *If malloc fails, then _calloc returns NULL
 
 __3. array_range__
+
  a function that creates an array of integers.
  *Prototype: int *array_range(int min, int max);
  *The array created should contain all the values from
