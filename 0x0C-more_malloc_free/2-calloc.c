@@ -3,7 +3,7 @@
 /**
 **_calloc - allocates memory for an array, using malloc.
 *
-* @nmeb: input
+* @nmemb: input
 * @size: input
 *
 * Return: 0
