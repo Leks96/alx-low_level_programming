@@ -13,6 +13,7 @@
 */
 int main(int argc, char *argv[])
 {
+	int (*get_op_func(char *s))(int, int);
 	int num1, num2, finRes;
 	int (*res)(int, int);
 	char *get_op;
