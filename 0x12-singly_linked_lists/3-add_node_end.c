@@ -1,4 +1,7 @@
 #include "lists.h"
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
 int _strlen(char *s);
 /**
 * *add_node_end - a function that adds a new node at the end of a list_t list.

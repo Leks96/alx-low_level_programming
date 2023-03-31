@@ -1,4 +1,7 @@
 #include "lists.h"
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 int _strlen(char *s);
 /**
 * *add_node - a function that adds a new node at the
