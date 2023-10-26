@@ -10,6 +10,7 @@ int find_sqrt(int n, int low, int high)
 {
 	int mid;
 	int square;
+
 	if (low > high)
 		return (-1);
 	mid = (low + high) / 2;
