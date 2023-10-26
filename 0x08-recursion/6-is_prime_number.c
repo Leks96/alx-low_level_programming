@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* check_prime - helper functio to help find the square root
+* is_prime_recursive - helper function to help find the square root
 * @n: the number to be checked for primality
 * @x: the divisor
 * Return: 1 if n is prime, or 0 if not
